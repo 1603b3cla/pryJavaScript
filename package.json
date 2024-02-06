@@ -1,0 +1,20 @@
+{
+  "name": "pryjavascript",
+  "version": "1.0.0",
+  "description": "\"# pryJavaScript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1603b3cla/pryJavaScript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1603b3cla/pryJavaScript/issues"
+  },
+  "homepage": "https://github.com/1603b3cla/pryJavaScript#readme"
+}
