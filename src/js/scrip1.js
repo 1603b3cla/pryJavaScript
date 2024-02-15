@@ -148,7 +148,7 @@ alert(`helo $ {1}`);
 
 
 let nombreAnimal = 'Mono'; */
-
+/*
 function factorial(n) {
     // Caso base: el factorial de 0 o 1 es 1
     if (n === 0 || n === 1) {
@@ -173,4 +173,37 @@ function fibonacci(n) {
 }
 
 // Ejemplo de uso
-console.log(fibonacci(6)); // Imprimirá 8
+console.log(fibonacci(6)); // Imprimirá 8 */
+/*
+
+const date = new Date();
+
+let nameUser = prompt("Ingresa tu nombre: ");
+let numControl = prompt("Ingresa tu numero de control: ");
+let birthday = prompt("Ingresa tu año de nacimiento: ");
+
+const edad = date.getFullYear() - birthday;
+console.log(`Los datos del alumno son: \n nombre: ${nameUser}
+numero de control${numControl}\n edad: ${edad}`)
+*/
+
+/*const weight = parseFloat(prompt("Ingresa el ancho del rectangulo: "));
+const height = parseFloat(prompt('Ingresar la altura del rectangulo: '));
+
+const birthday = parseInt(prompt('Ingresa el año de nacimiento: '));
+
+
+console.log('el perimetro es: ', 2 * (weight + height) + " U2");
+console.log('el año de nacimiento es: ', birthday)*/
+
+
+/*
+const gender = prompt('Ingresa tu sexo: ');
+console.log(gender.charAt(0));*/
+
+
+let jsonString = '{"Marca":"LG","Modelo":"ZPlus","RAM":12,"Procesador":"SnapDragon 820"}';
+let cadenaNoparceada = jsonString;
+
+console.log(`Cadena no parceada: ${jsonString}`)
+console.log(`Cdena Parceada: ${JSON.parse(jsonStrin)}`);
