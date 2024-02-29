@@ -5,7 +5,6 @@ let i = 1;
 while (i <= 10) {
     // Calculamos el resultado de la multiplicación
     let resultado = 7 * i;
-
     // Mostramos la fila de la tabla de multiplicar
     console.log(`7 x ${i} = ${resultado}`);
 
