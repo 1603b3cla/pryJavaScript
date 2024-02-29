@@ -98,7 +98,6 @@ console.log(v);
 
 constEjemplo(); */
 
-
 /*
 
 
@@ -128,8 +127,6 @@ console.log('symbol:${typeof symbol}');
 
 let pesoCelular = 1.4;
 pesoCelular = 'Uno punto cuatro';*/
-
-
 
 //Cadena de caracteres
 
@@ -196,14 +193,63 @@ const birthday = parseInt(prompt('Ingresa el año de nacimiento: '));
 console.log('el perimetro es: ', 2 * (weight + height) + " U2");
 console.log('el año de nacimiento es: ', birthday)*/
 
-
 /*
 const gender = prompt('Ingresa tu sexo: ');
 console.log(gender.charAt(0));*/
-
+/*
 
 let jsonString = '{"Marca":"LG","Modelo":"ZPlus","RAM":12,"Procesador":"SnapDragon 820"}';
 let cadenaNoparceada = jsonString;
 
 console.log(`Cadena no parceada: ${jsonString}`)
 console.log(`Cdena Parceada: ${JSON.parse(jsonStrin)}`);
+
+//operador (,)
+
+let nameFruts = ['pera', 'apeple', 'lemon'];
+nameFruts.push('pañaple')
+console.log(nameFruts.length);
+
+
+
+let a = 3 + 4,
+    b = 4 + 4,
+    c = 8 - 2;
+
+//imprimir e l valor de a
+//pero elevado al cuadrado su valor
+//utilizar el operador de potencia y asignacion
+//y mostrar el valor de b y c
+//imprimir el valor de a
+
+let aCuadrado = a * a;
+
+console.log(a **= 2, `b=${b}`, `c=${c}`, `a=${a}`);
+
+let a = 73;
+let b = 30;
+
+
+let result = a > b ? `${a} es mayor que ${b}` : `${a} es menor que ${b}`;
+console.log(result);
+*/
+//realizar js que solicite el año de nacimiento de una persona, y determine si es mayor de edad, de lo contrario menor de edad, utilizando pront de navegador, mostrar mensaje en alert
+
+let anioNacimiento = prompt("Ingresa tu año de nacimiento:");
+let esMayorEdad = new Date().getFullYear() - anioNacimiento >= 18;
+let mensaje = esMayorEdad ?
+    "Eres mayor de edad. ¡Bienvenido!" :
+    "Eres menor de edad. ¡Acceso restringido!";
+alert(mensaje);
+
+
+let aCuadrado = a * a;
+
+console.log(a **= 2, `b=${b}`, `c=${c}`, `a=${a}`);
+
+let a = 73;
+let b = 30;
+
+
+let result = a > b ? `${a} es mayor que ${b}` : `${a} es menor que ${b}`;
+console.log(result);
