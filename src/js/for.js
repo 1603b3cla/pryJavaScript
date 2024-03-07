@@ -115,3 +115,23 @@ contries.set('Es', 'España');
 for (let [clave, valor] of contries) {
     console.log(clave, ':', valor)
 }
+
+//for of con set
+console.log("Recorrido con ForOf con set")
+const partidosPoliticos = new Set();
+partidosPoliticos.add("PRI");
+partidosPoliticos.add("MORENA");
+partidosPoliticos.add("PAN");
+for (let valor of partidosPoliticos) {
+    console.log(valor);
+}
+
+
+const prefijos = ['Super', 'Spider', 'Ant', 'Iron'];
+const superfijo = 'man';
+
+// Utilizamos map para crear un nuevo array con los nombres de superhéroes
+const superHeroes = prefijos.map(prefijo => prefijo + superfijo);
+
+// Mostramos el array resultante
+console.log(superHeroes);
